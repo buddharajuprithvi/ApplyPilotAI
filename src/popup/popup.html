@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ApplyPilotAI</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">AP</span>
+        <div>
+          <h1>ApplyPilotAI</h1>
+          <p>Local application assistant</p>
+        </div>
+      </div>
+
+      <section class="card">
+        <h2>Ready to fill</h2>
+        <p>
+          Apply your profile to recognized fields on this page. Nothing will be
+          submitted automatically.
+        </p>
+        <button id="autofill" type="button">Autofill this page</button>
+      </section>
+
+      <p id="status" class="status" role="status" aria-live="polite">
+        Review all values before submitting.
+      </p>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

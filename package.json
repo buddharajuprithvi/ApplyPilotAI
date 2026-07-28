@@ -1,0 +1,10 @@
+{
+  "name": "apply-pilot-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome extension starter for job application autofill",
+  "scripts": {
+    "test": "node tests/validate.mjs"
+  }
+}
