@@ -34,9 +34,13 @@ button.addEventListener("click", async () => {
     }
 
     const count = result.filledCount;
+    const sectionsAdded = result.sectionsAdded ?? 0;
+    const addedMessage = sectionsAdded
+      ? ` Added ${sectionsAdded} additional section${sectionsAdded === 1 ? "" : "s"}.`
+      : "";
     setStatus(
       count
-        ? `Filled ${count} field${count === 1 ? "" : "s"}. Review them before submitting.`
+        ? `Filled ${count} field${count === 1 ? "" : "s"}.${addedMessage} Review them before submitting.`
         : "No recognized empty fields were found on this page.",
       count ? "success" : ""
     );

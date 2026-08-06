@@ -1,0 +1,5 @@
+// As a PM at Walmart, I have led the implementation of an AI - based agentic chatbot within the crisis management product.
+// Using this, the crisis leads, instead of filling in huge manual forms, can type in the situation in a conversational chat, and the AI agent would automatically fill in and trigger workflows based on the input.
+// This helped us reduce the time to respond during crises by nearly 45 %.
+
+// I was responsible for prototyping and proposing the feature enhancement idea for the existing crisis management product.Further, I now plan to work with the UX and Engineering teams to further enhance the user experience by integrating a VoIP AI support where the user could just talk to the agent instead of typing the entire content.We believe this would further reduce the time to respond by an additional 50 %.

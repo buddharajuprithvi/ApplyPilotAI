@@ -25,6 +25,13 @@ for (const path of [
 }
 
 assert.ok(profile.personal, "Profile must contain personal details");
+assert.equal(profile.personal.prefix, "Mr");
+assert.equal(profile.personal.email, "buddharajuprithvi@gmail.com");
+assert.equal(profile.personal.address.country, "India");
+assert.equal(profile.personal.phoneExtension, "");
+assert.equal(profile.personal.phoneDeviceType, "Mobile");
+assert.equal(profile.account.password, "Hello@123");
+assert.equal(profile.account.verifyPassword, profile.account.password);
 assert.ok(
   profile.personal.phoneCountryCode?.callingCode,
   "Phone country code must contain a calling code"

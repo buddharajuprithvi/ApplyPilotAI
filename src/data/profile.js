@@ -6,6 +6,7 @@
  */
 export const profile = {
   personal: {
+    prefix: "Mr",
     firstName: "Prithvi",
     middleName: "",
     lastName: "Buddharaju",
@@ -19,6 +20,8 @@ export const profile = {
       countryName: "India"
     },
     phone: "9787123063",
+    phoneExtension: "",
+    phoneDeviceType: "Mobile",
     address: {
       line1: "Hyderabad",
       // line2: "",
@@ -29,11 +32,16 @@ export const profile = {
     }
   },
 
+  account: {
+    password: "Hello@123",
+    verifyPassword: "Hello@123"
+  },
+
   links: {
     linkedin: "https://www.linkedin.com/in/prithvi-buddharaju/",
     // github: "https://github.com/janedoe",
-    portfolio: "https://buddharajuprithvi.github.io/pm/",
-    website: "https://www.srikanyasteels.com/"
+    portfolio: "https://buddharajuprithvi.github.io/pm?from=496E646961",
+    website: "https://www.srikanyasteels.com"
   },
 
   workPreferences: {

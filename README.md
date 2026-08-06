@@ -166,9 +166,17 @@ headings to decide which date to use. Repeating portal sections still vary, so
 review each populated date before submitting.
 
 Common single-value fields are autofilled now. Repeating application sections
-such as multiple jobs and education entries differ significantly between job
-portals; the arrays are included as structured context and as a base for
-portal-specific adapters.
+are also supported. Before filling, ApplyPilotAI looks for visible buttons such
+as **Add Another**, **Add Work**, **Add Experience**, **Add Work Experience**,
+**Add Education**, and **Add More**. Generic button labels such as **Add More**
+are classified from the surrounding employment or education section.
+
+The extension adds sections until the page has enough entries for the
+`workExperience` and `education` arrays, waits for each section to render, and
+then maps the first group of fields to array index `0`, the second group to
+index `1`, and so on. Job portals structure repeating sections differently, so
+always confirm that each company, role, school, and date stayed grouped
+together before submitting.
 
 If you do not want the extension to answer optional demographic questions,
 leave those values blank.
